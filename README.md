@@ -14,6 +14,7 @@ Our project is a Verilog implementation of the game Snake. Like in the original 
 - KEY[2]: Move up
 - KEY[3]: Move left
 - SW[0]: Reset/start new game
+- SW[2], SW[3]: Set game difficulty/speed
 - HEX4, HEX5: Display score/apples eaten
 
 ### Video URL: TBA
