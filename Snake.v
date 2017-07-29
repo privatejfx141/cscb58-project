@@ -1,5 +1,6 @@
 /**
  * The main module for the game Snake.
+ * Created by Brennan Law, Jeffrey Li, Johnson Zhu.
  */
 module Snake(
     CLOCK_50,      // On Board 50 MHz
@@ -269,7 +270,7 @@ module datapath(
   reg [6:0] bodyY[0:127];   // 128-element array of 7-bit y-coordinates
   reg init_state;           // boolean register for initial state
   reg gameover;             // boolean register for game over
-  integer i;                // integer value for looping
+  integer i;                // integer value for looping to update snake body
 
   // initialize module, init_state is for print apple at beginning of game
   initial begin
@@ -374,9 +375,9 @@ module datapath(
       // update body positions
       x <= headX; y <= headY;
       bodyX[0] <= headX; bodyY[0] <= headY;
-      for (i = 0; i < 127; i++) begin
-        bodyX[i + 1'b1] <= bodyX[i];
-        bodyY[i + 1'b1] <= bodyY[i];
+      for (i = 0; i < 127; i++) begin  // if this loop does not work
+        bodyX[i + 1'b1] <= bodyX[i];   // replace this code block with the
+        bodyY[i + 1'b1] <= bodyY[i];   // snippet in hardcoded_body.v
       end
 
     end else if (state == PRINT_APPLE_PREP) begin

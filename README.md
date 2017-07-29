@@ -1,4 +1,8 @@
 # CSCB58 Project: Summer 2017
+### Created by:
+- Brennan Law
+- Jeffrey Li
+- Johnson Zhu
 
 ## Project Details - Snake
 ### Project Description:
