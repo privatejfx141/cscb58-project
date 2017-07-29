@@ -8,18 +8,16 @@ Project Title: Snake
 	Our project is a Verilog implementation of the game Snake. Like in the original video game, the player maneuvers a snake which grows in length after eating. The snake is to avoid obstacles such as the game boundaries and itself. If a snake hits an obstacle, the game ends and will need to be restarted.
 
 ### The controls we will be using on the FPGA board for the game are:
-KEY[0]		Move right
-KEY[1]		Move down
-KEY[2]		Move up
-KEY[3]		Move left
-SW[0]		Reset/start new game
-HEX0, HEX1	Display score/apples eaten
-HEX2, HEX3	Game timer
+- KEY[0]		Move right
+- KEY[1]		Move down
+- KEY[2]		Move up
+- KEY[3]		Move left
+- SW[0]		Reset/start new game
+- HEX0, HEX1	Display score/apples eaten
+- HEX2, HEX3	Game timer
 
 Video URL: TBA
 
-Code URL (please upload a copy of this file to your repository at the end of the project as well, it will
-serve as a useful resource for future development): TBA
 
 
 ## Proposal
