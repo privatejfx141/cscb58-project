@@ -17,7 +17,7 @@ Our project is a Verilog implementation of the game Snake. Like in the original 
 - SW[2], SW[3]: Set game difficulty/speed
 - HEX4, HEX5: Display score/apples eaten
 
-### Video URL: TBA
+### Video URL: https://www.youtube.com/watch?v=Mu3IAKBqEcE
 
 ## Motivations
 ### How does this project relate to the material covered in CSCB58?:
